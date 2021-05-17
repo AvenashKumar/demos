@@ -21,13 +21,13 @@ public class ApplicationController {
   }
 
   @GetMapping("/endpoint1")
-  public String app1() {
-    return appId + ": Hello from App1";
+  public String endpoint1() {
+    return appId + ": Hello from Endpoint1";
   }
 
   @GetMapping("/endpoint2")
-  public String app2() {
-    return appId + ": Hello from App2";
+  public String endpoint2() {
+    return appId + ": Hello from Endpoint2";
   }
 
   @GetMapping("/admin")
